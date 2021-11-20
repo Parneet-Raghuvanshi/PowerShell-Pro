@@ -19,19 +19,17 @@
                     }
                 },
                 {
-                    "type": "text",
+                    "type": "session",
                     "style": "plain",
                     "foreground": "lightGreen",
                     "properties": {
-                      "prefix": "",
-                      "text": " Nolen ~",
-                      "postfix": ""
+                        "postfix": " =>"
                     }
                 },
                 {
                     "type": "path",
                     "style": "plain",
-                    "foreground": "lightGreen",
+                    "foreground": "lightYellow",
                     "properties": {
                         "style": "full"
                     }
@@ -48,8 +46,8 @@
                         "status_colors_enabled": true,
                         "display_status": true,
                         "stash_count_icon": "\uF692 ",
-                        "prefix": "<lightYellow>on</> ",
-                        "postfix": ""
+                        "prefix": "<lightYellow>( on </>",
+                        "postfix": " <lightYellow>)</>"
                     }
                 }
             ]
@@ -121,7 +119,7 @@
                         "display_exit_code": false,
                         "always_enabled": true,
                         "error_color": "lightRed",
-                        "prefix": "$"
+                        "prefix": "\u276F"
                     }
                 }
             ]
